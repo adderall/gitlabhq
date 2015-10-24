@@ -1,41 +1,4 @@
-# Requirements
-
-## Operating Systems
-
-### Supported Unix distributions
-
-- Ubuntu
-- Debian
-- CentOS
-- Red Hat Enterprise Linux (please use the CentOS packages and instructions)
-- Scientific Linux (please use the CentOS packages and instructions)
-- Oracle Linux (please use the CentOS packages and instructions)
-
-For the installations options please see [the installation page on the GitLab website](https://about.gitlab.com/installation/).
-
-### Unsupported Unix distributions
-
-- OS X
-- Arch Linux
-- Fedora
-- Gentoo
-- FreeBSD
-
-On the above unsupported distributions is still possible to install GitLab yourself.
-Please see the [installation from source guide](https://github.com/gitlabhq/gitlabhq/blob/master/doc/install/installation.md) and the [unofficial installation guides](https://github.com/gitlabhq/gitlab-public-wiki/wiki/Unofficial-Installation-Guides) on the public wiki for more information.
-
-### Non-Unix operating systems such as Windows
-
-GitLab is developed for Unix operating systems.
-GitLab does **not** run on Windows and we have no plans of supporting it in the near future.
-Please consider using a virtual machine to run GitLab.
-
-## Ruby versions
-
-GitLab requires Ruby (MRI) 2.1
-You will have to use the standard MRI implementation of Ruby.
-We love [JRuby](http://jruby.org/) and [Rubinius](http://rubini.us/) but GitLab needs several Gems that have native extensions.
-
+  
 ## Hardware requirements
 
 ### Storage
